@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Askarov D.K." />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="backend developer, Python, Django, Go, Web3.0, blockchain, smart contracts, decentralized applications"
+    />
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Askarov Dauren - Portfolio</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>
+          <span class="site-title">Askarov Dauren</span>
+          <span class="site-description">Passionate Backend Developer: Python/Django & Go, Web3.0 Enthusiast.</span>
+        </h1>
+        
+        <div class="header-icons">
+          <a aria-label="My Telegram" target="_blank" href="https://t.me/DK_Oscar">
+            <i class="icon fa fa-telegram" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/dauren-askarov-67816b24a">
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Github Profile" target="_blank" href="https://github.com/Oscardkyou"
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+          </a>
+          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/drive/folders/10hUhAmiBqQAU9Nf7JfOs-D8VtQ5RYCHm?usp=sharing">
+            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="header-links">
+          <a class="link" href="#about" data-scroll>About Me</a>
+          <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="user-details">
+        <h1>About</h1>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="./assets/img/webp/Professional-Picture-Me.webp"
+            alt="Professional Me"
+            width="20%"
+            style="border-radius: 50%"
+          />
+        </picture>
+        <p>
+          Backend developer with deep expertise in Python and Django. Professional experience with GraphQL, Django REST
+framework, and successful implementation of multiple projects using these technologies. Actively exploring Web3.0,
+blockchain technologies, smart contracts, and decentralized applications. Learning Go Lang and staying abreast of
+new tools and trends in IT. My projects are available on GitHub.
+        </p>
+      </div>
+
+      <!-- User Specifics -->
+<div class="user">
+  <!-- Technology Stack #1: Languages -->
+  <div class="tech">
+    <h2>Languages</h2>
+    <i class="devicon-python-plain colored"></i>
+    <i class="devicon-go-plain colored"></i>
+    <p>Fluent in Python and Go for robust systems and software engineering.</p>
+  </div>
+
+  <!-- Technology Stack #2: Front-End -->
+  <div class="tech">
+    <h2>Front-End</h2>
+    <i class="devicon-html5-plain-wordmark colored"></i>
+    <i class="devicon-css3-plain-wordmark colored"></i>
+    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+    <p>Mastery in HTML5, CSS3, and Bootstrap for captivating front-end experiences.</p>
+  </div>
+
+  <!-- Technology Stack #3: Back-End -->
+  <div class="tech">
+    <h2>Back-End</h2>
+    <i class="devicon-django-plain-wordmark colored"></i>
+    <i class="devicon-fastapi-plain-wordmark colored"></i>
+    <i class="devicon-go-plain colored"></i>
+    <i class="devicon-djangorest-plain-wordmark colored"></i>
+    <p>Specialized in Django, FastAPI, and Go for robust back-end development, using PostgreSQL and SQLite.</p>
+  </div>
+
+  <!-- Technology Stack #4: Tools -->
+  <div class="tech">
+    <h2>Tools</h2>
+    <i class="devicon-git-plain-wordmark colored"></i>
+    <i class="devicon-docker-plain-wordmark colored"></i>
+    <i class="devicon-heroku-plain-wordmark colored"></i>
+    <i class="devicon-kubernetes-plain-wordmark colored"></i>
+    <i class="devicon-digitalocean-plain-wordmark colored"></i>
+    <i class="devicon-nginx-plain colored"></i>
+    <p>Proficient in Git, Docker, Heroku, Kubernetes, DigitalOcean, and Nginx for seamless version control, deployment, and infrastructure management.</p>
+  </div>
+</div>
+</section>
+
+
+<style>
+  #projects {
+    background-color: #f0f0f0; /* Set your desired background color */
+    padding: 20px; /* Add padding for better readability */
+  }
+
+  .user-projects {
+    margin-bottom: 20px; /* Add some space between projects */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .images-right,
+  .images-left {
+    flex: 1;
+    text-align: center;
+  }
+
+  .contents,
+  .contents-right {
+    flex: 2;
+    text-align: left;
+  }
+
+  /* Add any other styles you need */
+</style>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="user-details">
+    <h1>Featured Projects</h1>
+  </div>
+
+  <!-- Проект #1: Python-бот для автоматизации управления заявками -->
+  <div class="user-projects">
+    <div class="images-right">
+      <picture>
+        <img src="path/to/image1.jpg" alt="Project Image 1">
+      </picture>
+    </div>
+    <div class="contents">
+      <h3>Python-бот для автоматизации управления заявками</h3>
+      <p>
+        Мой бот автоматизирует прием и распределение заявок из пяти регионов, оптимизируя рабочий процесс логистики и производства.
+      </p>
+      <p>Моя роль: В качестве главного разработчика я воплотил проект от концепции до кода, обеспечивая масштабируемость и удобство поддержки бота.</p>
+      <p>Технологии: Python и Aiogram для асинхронной работы с Telegram API.</p>
+      <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/DaurenBot">Check it out!</a>
+    </div>
+  </div>
+
+  <!-- Проект #2: Веб-сайт на Django для централизованной обработки заявок -->
+  <div class="user-projects">
+    <div class="images-left">
+      <picture>
+        <img src="path/to/image2.jpg" alt="Project Image 2">
+      </picture>
+    </div>
+    <div class="contents-right">
+      <h3>Веб-сайт на Django для централизованной обработки заявок</h3>
+      <p>Этот веб-сайт разработан как централизованная система для приема, обработки и управления заявками от клиентов.</p>
+      <p>Моя роль: В роли разработчика и архитектора я создал основные функции сайта, спроектировал БД и UI, и следил за кодом и безопасностью согласно стандартам отрасли.</p>
+      <p>Технологии: Проект был выполнен на языке программирования Python с использованием веб-фреймворка Django.</p>
+      <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/restaurant_project">Check it out!</a>
+    </div>
+  </div>
+
+  <!-- Проект #3: URL Shortener на Go (Golang) -->
+  <div class="user-projects">
+    <div class="images-right">
+      <picture>
+        <img src="path/to/image3.jpg" alt="Project Image 3">
+      </picture>
+    </div>
+    <div class="contents">
+      <h3>URL Shortener на Go (Golang)</h3>
+      <p>Сервис для сокращения длинных URL-ссылок.</p>
+      <p>Моя роль: Основной разработчик.</p>
+      <p>Технологии: Go (Golang).</p>
+      <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/urlshortener">Check it out!</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- Projects Section -->
+   <!-- <section id="projects">
+      <div class="user-details">
+        <h1>Featured Projects</h1>
+      </div>
+
+      &lt;!&ndash; User Project #1: Personal Résumé Website &ndash;&gt;
+     &lt;!&ndash; <div class="user-projects">
+        <div class="images-right">
+          <picture>
+
+            <img alt="Personal Website" src="./assets/img/jpg/Personal-Resume-Website.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>Attempted to Development of galam.tm</h3>
+        &lt;!&ndash;  <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+            />
+            &nbsp;
+
+          </div>&ndash;&gt;
+          <p style="text-align: justify">
+            I developed backend side of this e-commerce using PHP, jQuery and Bootstrap, hosted on Github Pages, to showcase my web
+            presence, story, work experience, education, projects, and achievements in an interactive.
+          </p>
+          <a class="project-link" target="_blank" href="https://galam.tm/">Check it out!</a>
+        </div>
+      </div>&ndash;&gt;
+
+      &lt;!&ndash; User Project #2: Summer 2020 Project &ndash;&gt;
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/Perpetual-Crusades.webp" alt="Perpetual Crusades" />
+            <img alt="Perpetual Crusades" src="./assets/img/jpg/Perpetual-Crusades.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Perpetual Crusades</h3>
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+            style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
+          />
+          &nbsp;
+          <img
+            height="32"
+            width="32"
+            src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
+            style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
+          />
+          &nbsp;
+          <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+          <p style="text-align: justify">
+            I created a two-player online dice-based board game with a theme loosely set around Dungeons & Dragons. It
+            was developed as a submission for Penn Apps XXI, using ReactJS and CSS Grid Layouts for design and hosted on
+            GitHub Pages.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project"
+            >Check it out!</a
+          >
+        </div>
+      </div>
+
+      &lt;!&ndash; User Project #3: COVID-19 Tracker App &ndash;&gt;
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <source type="image/webp" srcset="./assets/img/webp/COVID19-Tracker-App.webp" alt="COVID-19 Tracker App" />
+            <img alt="COVID-19 Tracker App" src="./assets/img/jpg/COVID19-Tracker-App.jpg" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>COVID-19 Tracker App</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
+              style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            I created a web application for tracking the spread of COVID-19. Using Johns Hopkins University Center For
+            Systems Science and Engineering API, the website processes the COVID-19 data to create statistical
+            projections through graphs and charts.
+          </p>
+          <a class="project-link" target="_blank" href="https://www.adityavsingh.com/covid19-tracker-app">
+            Check it out!
+          </a>
+        </div>
+      </div>
+
+      &lt;!&ndash; Use Project #4: Valuto: Account Management System &ndash;&gt;
+      <div class="user-projects">
+        <div class="images-left">
+          <picture>
+            <source
+              type="image/webp"
+              srcset="./assets/img/webp/Valuto-Account-Management.webp"
+              alt="Valuto: Account Management System"
+            />
+            <img alt="Valuto: Account Management System" src="./assets/img/jpg/Valuto-Account-Management.jpg" />
+          </picture>
+        </div>
+        <div class="contents-right" style="text-align: center">
+          <h3>Valuto: Account Management System</h3>
+          <div>
+            <img
+              height="32"
+              width="32"
+              src="https://unpkg.com/simple-icons@3.4.0/icons/cplusplus.svg"
+              style="filter: invert(22%) sepia(77%) saturate(1486%) hue-rotate(183deg) brightness(101%) contrast(103%)"
+            />
+          </div>
+          <p style="text-align: justify">
+            I developed a CLI system for accounting management and financial statement maintenance. The purpose of the
+            system is to maintain a record of the funds received, used, disseminated and donated by an organization.
+            Details of transactions and maintenance of a budget and tallying of current balance/inventory in cash/kind
+            is incorporated in this system.
+          </p>
+          <a class="project-link" target="_blank" href="https://github.com/AVS1508/Valuto-Account-Management-System">
+            Check it out!
+          </a>
+        </div>
+      </div>
+    </section>-->
+
+    <footer class="footer">
+      <p id="copyright"></p>
+    </footer>
+
+    <script>
+      document.getElementById('copyright').innerHTML = ' &copy; Dk ' + new Date().getFullYear();
+    </script>
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
