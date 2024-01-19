@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+
     <!-- Metadata of the Webpage -->
     <!-- Character-set Metadata -->
     <meta charset="utf-8" />
@@ -27,14 +27,14 @@
   </head>
 
   <body>
-    
+
     <div id="particles-js">
       <div class="header">
         <h1>
           <span class="site-title">Askarov Dauren</span>
           <span class="site-description">Passionate Backend Developer: Python/Django & Go, Web3.0 Enthusiast.</span>
         </h1>
-        
+
         <div class="header-icons">
           <a aria-label="My Telegram" target="_blank" href="https://t.me/DK_Oscar">
             <i class="icon fa fa-telegram" aria-hidden="true"></i>
@@ -71,85 +71,123 @@
             style="border-radius: 50%"
           />
         </picture>
-        <p>
-          Backend developer with deep expertise in Python and Django. Professional experience with GraphQL, Django REST
-framework, and successful implementation of multiple projects using these technologies. Actively exploring Web3.0,
-blockchain technologies, smart contracts, and decentralized applications. Learning Go Lang and staying abreast of
-new tools and trends in IT. My projects are available on GitHub.
-        </p>
+        <div>
+          <p>Backend developer with deep expertise in Python and Django. Professional experience with GraphQL, Django REST framework, and successful implementation of multiple projects using these technologies.</p>
+
+          <p>Actively exploring Web3.0, blockchain technologies, smart contracts, and decentralized applications. Learning Go Lang and staying abreast of new tools and trends in IT.</p>
+
+          <p>Check out my projects on GitHub.</p>
       </div>
 
-      <!-- User Specifics -->
-<div class="user">
-  <!-- Technology Stack #1: Languages -->
-  <div class="tech">
-    <h2>Languages</h2>
-    <i class="devicon-python-plain colored"></i>
-    <i class="devicon-go-plain colored"></i>
-    <p>Fluent in Python and Go for robust systems and software engineering.</p>
-  </div>
 
-  <!-- Technology Stack #2: Front-End -->
-  <div class="tech">
-    <h2>Front-End</h2>
-    <i class="devicon-html5-plain-wordmark colored"></i>
-    <i class="devicon-css3-plain-wordmark colored"></i>
-    <i class="devicon-bootstrap-plain-wordmark colored"></i>
-    <p>Mastery in HTML5, CSS3, and Bootstrap for captivating front-end experiences.</p>
-  </div>
+      </div>
 
-  <!-- Technology Stack #3: Back-End -->
-  <div class="tech">
-    <h2>Back-End</h2>
-    <i class="devicon-django-plain-wordmark colored"></i>
-    <i class="devicon-fastapi-plain-wordmark colored"></i>
-    <i class="devicon-go-plain colored"></i>
-    <i class="devicon-djangorest-plain-wordmark colored"></i>
-    <p>Specialized in Django, FastAPI, and Go for robust back-end development, using PostgreSQL and SQLite.</p>
-  </div>
+      <section id="projects">
+        <!-- User Specifics -->
+        <div class="user">
+          <!-- Technology Stack #1: Languages -->
+          <div class="tech">
+            <h2>Languages</h2>
+            <i class="devicon-python-plain colored"></i>
+            <i class="devicon-go-line colored"></i>
+            <p>Proficient in Python and Go for robust software engineering.</p>
+          </div>
 
-  <!-- Technology Stack #4: Tools -->
-  <div class="tech">
-    <h2>Tools</h2>
-    <i class="devicon-git-plain-wordmark colored"></i>
-    <i class="devicon-docker-plain-wordmark colored"></i>
-    <i class="devicon-heroku-plain-wordmark colored"></i>
-    <i class="devicon-kubernetes-plain-wordmark colored"></i>
-    <i class="devicon-digitalocean-plain-wordmark colored"></i>
-    <i class="devicon-nginx-plain colored"></i>
-    <p>Proficient in Git, Docker, Heroku, Kubernetes, DigitalOcean, and Nginx for seamless version control, deployment, and infrastructure management.</p>
-  </div>
-</div>
-</section>
+          <!-- Technology Stack #2: Front-End -->
+          <div class="tech">
+            <h2>Front-End</h2>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            <p>Expertise in HTML5, CSS3, and Bootstrap for creating engaging front-end experiences.</p>
+          </div>
+
+          <!-- Technology Stack #3: Back-End -->
+          <div class="tech">
+            <h2>Back-End</h2>
+            <i class="devicon-django-plain-wordmark colored"></i>
+            <i class="devicon-fastapi-plain-wordmark colored"></i>
+            <i class="devicon-go-plain colored"></i>
+            <i class="devicon-djangorest-plain-wordmark colored"></i>
+            <p>Specialized in Django, FastAPI, and Go for robust back-end solutions, using PostgreSQL and SQLite.</p>
+          </div>
+
+          <!-- Technology Stack #4: Tools -->
+          <div class="tech">
+            <h2>Tools</h2>
+            <i class="devicon-git-plain-wordmark colored"></i>
+            <i class="devicon-docker-plain-wordmark colored"></i>
+            <i class="devicon-heroku-plain-wordmark colored"></i>
+            <i class="devicon-kubernetes-plain-wordmark colored"></i>
+            <i class="devicon-digitalocean-plain-wordmark colored"></i>
+            <i class="devicon-nginx-plain colored"></i>
+            <p>Skilled in Git, Docker, Heroku, Kubernetes, DigitalOcean, and Nginx for seamless version control and deployment.</p>
+          </div>
+        </div>
+      </section>
+
+      <style>
+        #projects {
+          background-color: #f5f5f5;
+          padding: 20px;
+        }
+
+        .user {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          background-color: #ffffff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .tech {
+          flex: 1;
+          text-align: center;
+          height: 300px; /* Увеличим высоту колонок */
+          transition: transform 0.3s ease-in-out;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          overflow: hidden;
+          margin: 10px;
+        }
+
+        .tech:hover {
+          transform: scale(1.05);
+        }
+
+        .tech i {
+          width: 60px;
+          height: 60px;
+          margin-bottom: 10px;
+          color: #3498db;
+          background-color: rgba(255, 255, 255, 0.7);
+          border-radius: 50%;
+          padding: 10px;
+        }
+
+        .tech h2 {
+          font-size: 18px;
+          margin-bottom: 10px;
+          color: #333;
+        }
+
+        .tech p {
+          font-size: 14px;
+          color: #555;
+          margin-top: 10px;
+        }
+      </style>
 
 
-<style>
-  #projects {
-    background-color: #f0f0f0; /* Set your desired background color */
-    padding: 20px; /* Add padding for better readability */
-  }
 
-  .user-projects {
-    margin-bottom: 20px; /* Add some space between projects */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
 
-  .images-right,
-  .images-left {
-    flex: 1;
-    text-align: center;
-  }
 
-  .contents,
-  .contents-right {
-    flex: 2;
-    text-align: left;
-  }
 
-  /* Add any other styles you need */
-</style>
+
+
+
 
 <!-- Projects Section -->
 <section id="projects">
@@ -157,55 +195,92 @@ new tools and trends in IT. My projects are available on GitHub.
     <h1>Featured Projects</h1>
   </div>
 
-  <!-- Project #1: Python Bot for Automated Management of Requests -->
-  <div class="user-projects">
-    <div class="images-right">
-      <picture>
-        <img src="img\OIP.jpg" alt="Project Image 1">
-      </picture>
-    </div>
-    <div class="contents">
-      <h3>Python Bot for Automated Management of Requests</h3>
-      <p>
-        My bot automates the process of receiving and distributing requests from five regions, optimizing the workflow in logistics and production.
-      </p>
-      <p>My role: As the lead developer, I brought the project to life from concept to code, ensuring scalability and ease of bot maintenance.</p>
-      <p>Technologies: Python and Aiogram for asynchronous communication with the Telegram API.</p>
-      <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/DaurenBot">Check it out!</a>
-    </div>
+<!-- Project #1: PriceAgent - Cryptocurrency Price Analysis Assistant -->
+<div class="user-projects">
+  <div class="images-left">
+    <picture>
+      <img src="img\priceagent.jpg" alt="PriceAgent Project Image">
+    </picture>
   </div>
+  <div class="contents-right">
+    <h3>PriceAgent - Cryptocurrency Price Analysis Assistant</h3>
+    <p>
+      About the Project 📚<br>
+      PriceAgent is a reliable assistant for analyzing prices of Bitcoin and other cryptocurrencies. Developed in Python using web scraping and API calls, it provides the latest Bitcoin news and historical price data for the last seven days. The assistant is based on ModelGpt.
+    </p>
+    <p>
+      Features 🌟<br>
+      - Get fresh Bitcoin news from Google.<br>
+      - Retrieve historical market price data for Bitcoin for the last seven days (as of today morning).<br>
+      - Price analysis: a combination of current price, historical data, and news to answer user questions about cryptocurrency prices.
+    </p>
+    <p>
+      Usage 💻<br>
+      Install the required dependencies:<br>
+      <code>pip install -r requirements.txt</code>
+    </p>
+    <p>
+      Contribution 🤝<br>
+      We welcome your contributions! If you want to contribute to PriceAgent, follow the guidelines in CONTRIBUTING.md.
+    </p>
+    <p>
+      License 📄<br>
+      This project is distributed under the MIT License.
+    </p>
+    <a class="project-link" target="_blank" href="https://github.com/your-username/price_agent">Check it out on GitHub!</a>
+  </div>
+</div>
 
-  <!-- Project #2: Django Website for Centralized Request Processing -->
-  <div class="user-projects">
-    <div class="images-left">
-      <picture>
-        <img src="img\photo_2023-12-29_16-21-35.jpg" alt="Project Image 2">
-      </picture>
-    </div>
-    <div class="contents-right">
-      <h3>Django Website for Centralized Request Processing</h3>
-      <p>This website is designed as a centralized system for receiving, processing, and managing customer requests.</p>
-      <p>My role: As a developer and architect, I created the core features of the site, designed the database and UI, and ensured code and security compliance with industry standards.</p>
-      <p>Technologies: The project was implemented in Python using the Django web framework.</p>
-      <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/restaurant_project">Check it out!</a>
-    </div>
+<!-- Project #2: Python Bot for Automated Management of Requests -->
+<div class="user-projects">
+  <div class="images-right">
+    <picture>
+      <img src="img\mybot2.jpg" alt="Project Image 1">
+    </picture>
   </div>
+  <div class="contents">
+    <h3>Python Bot for Automated Management of Requests</h3>
+    <p>
+      My bot automates the process of receiving and distributing requests from five regions, optimizing the workflow in logistics and production.
+    </p>
+    <p>My role: As the lead developer, I brought the project to life from concept to code, ensuring scalability and ease of bot maintenance.</p>
+    <p>Technologies: Python and Aiogram for asynchronous communication with the Telegram API.</p>
+    <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/DaurenBot">Check it out!</a>
+  </div>
+</div>
 
-  <!-- Project #3: URL Shortener in Go (Golang) -->
-  <div class="user-projects">
-    <div class="images-right">
-      <picture>
-        <img src="img\OIP (1).jpg" alt="Project Image 3">
-      </picture>
-    </div>
-    <div class="contents">
-      <h3>URL Shortener in Go (Golang)</h3>
-      <p>A service for shortening long URL links.</p>
-      <p>My role: Main developer.</p>
-      <p>Technologies: Go (Golang).</p>
-      <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/urlshortener">Check it out!</a>
-    </div>
+<!-- Project #3: Django Website for Centralized Request Processing -->
+<div class="user-projects">
+  <div class="images-left">
+    <picture>
+      <img src="img\photo_2023-12-29_16-21-35.jpg" alt="Project Image 2">
+    </picture>
   </div>
+  <div class="contents-right">
+    <h3>Django Website for Centralized Request Processing</h3>
+    <p>This website is designed as a centralized system for receiving, processing, and managing customer requests.</p>
+    <p>My role: As a developer and architect, I created the core features of the site, designed the database and UI, and ensured code and security compliance with industry standards.</p>
+    <p>Technologies: The project was implemented in Python using the Django web framework.</p>
+    <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/restaurant_project">Check it out!</a>
+  </div>
+</div>
+
+<!-- Project #4: URL Shortener in Go (Golang) -->
+<div class="user-projects">
+  <div class="images-right">
+    <picture>
+      <img src="img\mybot1.jpg" alt="Project Image 3">
+    </picture>
+  </div>
+  <div class="contents">
+    <h3>URL Shortener in Go (Golang)</h3>
+    <p>A service for shortening long URL links.</p>
+    <p>My role: Main developer.</p>
+    <p>Technologies: Go (Golang).</p>
+    <a class="project-link" target="_blank" href="https://github.com/Oscardkyou/urlshortener">Check it out!</a>
+  </div>
+</div>
+
 </section>
 
 
